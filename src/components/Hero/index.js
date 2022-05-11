@@ -2,6 +2,7 @@
 import GlitchText from "../GlitchText";
 import Dayitava from "../../assets/dayitava.svg";
 import Upadhyay from "../../assets/upadhyay.svg";
+import Button from "../Button";
 
 const Hero = () => (
   <section className="hero">
@@ -27,8 +28,8 @@ const Hero = () => (
       interfaces.
     </div>
     <div className="hero-button-group d-flex justify-content-center">
-      <button className="theme-btn black mr-3">See My Portfolio</button>
-      <button className="theme-btn white">Download Resume</button>
+      <Button type="primary">See My Portfolio</Button>
+      <Button type="secondary">Download Resume</Button>
     </div>
   </section>
 );
