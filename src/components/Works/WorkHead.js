@@ -4,7 +4,7 @@ import WorkTopBorder from "../../assets/worktopborder.svg";
 
 const WorkHead = () => (
   <Fragment>
-    <div className="heading d-flex justify-content-between">
+    <div className="heading d-flex">
       <p className="head">Works</p>
       <p className="head">Works</p>
       <p className="head main">Works</p>

@@ -43,6 +43,11 @@ const Works = () => {
                   </div>
                 ))}
               </div>
+              <img
+                className="inside-image"
+                src={caseStudy.img.src}
+                alt={`${caseStudy.title}`}
+              />
               <div className="brief">{caseStudy.description}</div>
               <button className="theme-btn black">Read Case Study</button>
             </div>
