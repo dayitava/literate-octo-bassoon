@@ -2,6 +2,7 @@
 import WorkHead from "./WorkHead";
 import Work1 from "../../assets/work1.png";
 import Work2 from "../../assets/work2.png";
+import Button from "../Button";
 
 const Works = () => {
   const caseStudies = [
@@ -49,7 +50,7 @@ const Works = () => {
                 alt={`${caseStudy.title}`}
               />
               <div className="brief">{caseStudy.description}</div>
-              <button className="theme-btn black">Read Case Study</button>
+              <Button type="primary">Read Case Study</Button>
             </div>
             <div className="work-image">
               <img src={caseStudy.img.src} alt={`${caseStudy.title}`} />
