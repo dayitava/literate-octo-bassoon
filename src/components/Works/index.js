@@ -1,8 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import WorkHead from "./WorkHead";
 import Work1 from "../../assets/work1.png";
 import Work2 from "../../assets/work2.png";
 import Button from "../Button";
+import SectionHead from "../Section/SectionHead";
 
 const Works = () => {
   const caseStudies = [
@@ -26,7 +26,7 @@ const Works = () => {
 
   return (
     <section className="work">
-      <WorkHead />
+      <SectionHead title={"Work"} />
       <div className="work-card-container">
         {caseStudies.map((caseStudy, idx) => (
           <div
