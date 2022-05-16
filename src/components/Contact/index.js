@@ -42,7 +42,12 @@ const Contact = () => {
           {socialLinks.map(({ id, title, value, link }) => (
             <div className="link" key={id}>
               <div className="title">{title}</div>
-              <a href={link} className="value">
+              <a
+                target={"_blank"}
+                rel={"noreferrer"}
+                href={link}
+                className="value"
+              >
                 {value}
               </a>
             </div>
