@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import GlitchText from "../GlitchText";
-import Dayitava from "../../assets/dayitava.svg";
-import Upadhyay from "../../assets/upadhyay.svg";
+import Dayitava from "assets/dayitava.svg";
+import Upadhyay from "assets/upadhyay.svg";
 import Button from "../Button";
 
 const Hero = () => (

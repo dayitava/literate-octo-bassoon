@@ -1,18 +1,18 @@
 /* eslint-disable @next/next/no-img-element */
 import SectionHead from "../Section/SectionHead";
-import DayitavaDP from "../../assets/AboutPic.png";
-import uiuxicon from "../../assets/uiuxicon.svg";
-import figmaicon from "../../assets/figmaicon.png";
-import xdicon from "../../assets/xdicon.png";
-import coffeeicon from "../../assets/coffeeicon.png";
-import cssicon from "../../assets/cssicon.png";
-import aiicon from "../../assets/aiicon.png";
-import animeicon from "../../assets/animeicon.png";
-import foodicon from "../../assets/foodicon.svg";
-import hikingicon from "../../assets/hikingicon.svg";
-import memeicon from "../../assets/memeicon.png";
-import travelicon from "../../assets/travelicon.png";
-import upanyasicon from "../../assets/upanyasicon.svg";
+import DayitavaDP from "assets/AboutPic.png";
+import uiuxicon from "assets/uiuxicon.svg";
+import figmaicon from "assets/figmaicon.png";
+import xdicon from "assets/xdicon.png";
+import coffeeicon from "assets/coffeeicon.png";
+import cssicon from "assets/cssicon.png";
+import aiicon from "assets/aiicon.png";
+import animeicon from "assets/animeicon.png";
+import foodicon from "assets/foodicon.svg";
+import hikingicon from "assets/hikingicon.svg";
+import memeicon from "assets/memeicon.png";
+import travelicon from "assets/travelicon.png";
+import upanyasicon from "assets/upanyasicon.svg";
 
 const About = () => {
   const interestList = [
@@ -85,7 +85,7 @@ const About = () => {
         <div className="d-flex dp-and-info">
           <img src={DayitavaDP.src} alt="Dayitava Upadhyay's photo" />
           <div className="my-info">
-            <h1>I&apos;m Dayitava</h1>
+            <h1 className="heading-1">I&apos;m Dayitava</h1>
             <p>
               I am a UI/UX Designer with experience in designing high-quality
               interactive and physical interfaces for various applications,

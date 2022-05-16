@@ -45,6 +45,21 @@ p {
 .mr-3 {
   margin-right: 30px;
 }
+
+.heading-1 {
+  font-size: 50px;
+  line-height: 62px;
+  margin-bottom: 0px;
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  @media screen and (max-width: 576px) {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}
+
 /* Buttons */
 
 button.theme-btn {
@@ -342,6 +357,7 @@ section:not(.hero) {
             object-fit: cover;
             box-shadow: -20px 20px 0 -7px black;
             margin-right: -15px;
+            transition: all 0.3s;
             @media screen and (max-width: 1300px) {
               max-width: 450px;
               max-height: 300px;
@@ -349,6 +365,11 @@ section:not(.hero) {
             @media screen and (max-width: 576px) {
               max-width: 300px;
               max-height: 200px;
+            }
+
+            &:hover {
+              transform: translateX(-10px);
+              box-shadow: -11px 11px 0 -7px black;
             }
           }
         }
@@ -468,18 +489,8 @@ section:not(.hero) {
     }
 
     h1 {
-      font-size: 50px;
-      line-height: 62px;
       margin-bottom: 10px;
       margin-top: 0px;
-      @media screen and (max-width: 768px) {
-        font-size: 40px;
-        line-height: 50px;
-      }
-      @media screen and (max-width: 576px) {
-        font-size: 35px;
-        line-height: 40px;
-      }
     }
     p {
       font-size: 20px;
@@ -531,5 +542,52 @@ section:not(.hero) {
         }
       }
     }
+  }
+}
+
+.contact {
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 180px;
+
+  @media screen and (max-width: 768px) {
+    margin-top: 120px;
+  }
+  p {
+    margin-top: 10px;
+    font-size: 20px;
+    line-height: 200%;
+    @media screen and (max-width: 576px) {
+      font-size: 17px;
+      line-height: 200%;
+    }
+  }
+
+  .social-links {
+    margin-top: 80px;
+    .link {
+      margin-bottom: 40px;
+      .title {
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 25px;
+        text-transform: uppercase;
+      }
+      .value {
+        font-size: 18px;
+        line-height: 23px;
+        text-decoration-line: underline;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1300px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }

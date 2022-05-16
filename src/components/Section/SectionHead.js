@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { Fragment } from "react";
-import SectionTopBorder from "../../assets/sectiontopborder.svg";
+import SectionTopBorder from "assets/sectiontopborder.svg";
 
 const SectionHead = ({ title }) => (
   <Fragment>

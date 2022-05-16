@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import Work1 from "../../assets/work1.png";
-import Work2 from "../../assets/work2.png";
+import Work1 from "assets/work1.png";
+import Work2 from "assets/work2.png";
 import Button from "../Button";
 import SectionHead from "../Section/SectionHead";
 
